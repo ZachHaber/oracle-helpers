@@ -40,7 +40,7 @@
     "doc:publish": "gh-pages -m \"[ci skip] Updates\" -d build/docs",
     "version": "standard-version",
     "preversion": "run-s test doc:html build",
-    "postversion": "doc:publish",
+    "postversion": "npm run doc:publish",
     "reset-hard": "git clean -dfx && git reset --hard && npm i",
     "prepare-release": "run-s test doc:html build version doc:publish"
   },
