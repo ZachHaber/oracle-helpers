@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.4.6](https://github.com/abbvie-external/oracle-helpers/compare/v3.4.5...v3.4.6) (2026-07-29)
+
+
+### Bug Fixes
+
+* **release:** add actual script to build the package in the release function ([f08a9eb](https://github.com/abbvie-external/oracle-helpers/commit/f08a9ebffecd897cf72a280760eb01aefbc5701f))
+
 ### [3.4.5](https://github.com/abbvie-external/oracle-helpers/compare/v3.4.4...v3.4.5) (2026-07-22)
 
 
