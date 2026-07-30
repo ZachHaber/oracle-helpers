@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.5.2](https://github.com/ZachHaber/oracle-helpers/compare/v3.5.1...v3.5.2) (2026-07-30)
+
+
+### Bug Fixes
+
+* alter all entries from old repository location ([5a1af9f](https://github.com/ZachHaber/oracle-helpers/commit/5a1af9fb49dfe0b3ae09afd59c51a5039f9e08c6))
+
 ### [3.5.1](https://github.com/ZachHaber/oracle-helpers/compare/v3.5.0...v3.5.1) (2026-07-29)
 
 
