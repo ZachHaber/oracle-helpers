@@ -258,8 +258,10 @@ const runSql = async () => {
 Run multiple mutations with a get inbetween in a single all-or-nothing transaction including returning a value from an insert.
 
 ```ts
-import { STRING, NUMBER, BIND_OUT, BIND_IN } from "oracledb";
+import OracleDB from "oracledb";
 import { getPoolConnection, getSql, mutateSql } from "oracle-helpers";
+
+const { STRING, NUMBER, BIND_OUT, BIND_IN } = OracleDB;
 const dbConfig = {
   user: "username",
   password: "password",
@@ -323,7 +325,7 @@ const runSql = async () => {
 ### Advanced with the tagged template:
 
 ```ts
-import { STRING, NUMBER, BIND_IN, BIND_OUT } from "oracledb";
+import OracleDB from "oracledb";
 import {
   sql,
   getPoolConnection,
@@ -331,6 +333,7 @@ import {
   mutateSql,
   toBindDefs,
 } from "oracle-helpers";
+const { STRING, NUMBER, BIND_IN, BIND_OUT } = OracleDB;
 const dbConfig = {
   user: "username",
   password: "password",

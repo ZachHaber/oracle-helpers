@@ -12,8 +12,8 @@ import OracleDB from 'oracledb';
  * const pages = 288;
  * const bind = {
  *   name: 'id',
- *   dir: BIND_OUT,
- *   type: NUMBER,
+ *   dir: OracleDB.BIND_OUT,
+ *   type: OracleDB.NUMBER,
  * };
  * const query = sql`INSERT INTO books (TITLE, AUTHOR, PAGES)
  *                              VALUES (${title}, ${author}, ${pages})
